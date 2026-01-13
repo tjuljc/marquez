@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.23.2
 WORKDIR /usr/local/bin
 RUN apk add --update bash curl jq
 COPY data/* ./data/
